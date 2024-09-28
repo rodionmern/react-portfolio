@@ -1,6 +1,5 @@
 import './project.css'
 import Button from '../Button/Button'
-import { Children } from 'react'
 
 export default function Project(props) {
     {console.log(props)}
