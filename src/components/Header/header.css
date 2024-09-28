@@ -1,0 +1,20 @@
+b {
+    color: #912;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222;
+    color: white;
+}
+.title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height:64px;
+    width:64px;
+}
