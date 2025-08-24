@@ -6,8 +6,15 @@ b {
     justify-content: center;
     align-items: center;
 
-    background-color: #222;
-    color: white;
+    background-color: #fdeeee;
+
+    position: fixed;
+
+    border-radius: 0 0 5px 0;
+
+    width: min-content;
+    height: min-content;
+
 }
 .title {
     display:flex;
@@ -18,3 +25,10 @@ b {
     height:64px;
     width:64px;
 }
+@media (max-width:700px) {
+    .header {
+        position:static;
+        border-radius: 0;
+        width: 100%;
+    }
+} 
